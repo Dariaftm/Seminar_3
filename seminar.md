@@ -17,53 +17,45 @@
  *git diff* - вывод изменения на текущий момент по отношению к последнему комиту  
  
  *git checkout master* или *git checkout хэш-номер комита* - переход между изменениями либо возврат к текущему состоянию
+
 ## Цитаты
+
 Цитаты оформляются как в емейлах, с помощью символа > .
-Напимер:
-> This is a blockquote with two paragraphs. Lorem ipsum
-dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi
-posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in,
-laoreet vitae, risus.
->
-> Donec sit amet nisl. Aliquam semper ipsum sit amet
-velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+
+Его можно вставлять как перед каждой строкой цитаты, так и только перед первой строкой параграфа.
+Напиример:
+>Это пример цитаты,
+>в которой перед каждой строкой
+>ставится угловая скобка.
+
+>Это пример цитаты,
+в которой угловая скобка
+ставится только перед началом нового параграфа.
+>Второй параграф.
 
 Или более ленивым способом, когда знак `>` ставится
 перед каждым элементом цитаты, будь то абзац, заголовок
 или пустая строка:
 
-> This is a blockquote with two paragraphs. Lorem ipsum
-dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi
-posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-vitae, risus.
->
-> Donec sit amet nisl. Aliquam semper ipsum sit amet
-velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.
+
 
 В цитаты можно помещать всё что угодно, в том числе
 вложенные цитаты:
 
-> ## This is a header.
+> Первый уровень цитирования
+>> Второй уровень цитирования
+>>> Третий уровень цитирования
 >
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> > Вложенная цитата.
->
-> Here's some example code:
->
-> return shell_exec("echo $input |
-$markdown_script");
+>Первый уровень цитирования
+
+## Картинки
+
+Чтобы вставить изображение в текст, достаточно написать следующее:
+
+![Привет, это кит!](КИТ.jpg)
 
 
-
-
-## Картинки 
 
 ## Ссылки 
+
+
